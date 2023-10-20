@@ -1,0 +1,100 @@
+.counterpage__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: clamp(2rem, 1.7887rem + 0.9014vw, 2.6rem);
+  height: clamp(20rem, 19.2958rem + 3.0047vw, 22rem);
+  width: clamp(21rem, 19.5915rem + 6.0094vw, 25rem);
+  padding: clamp(0.6rem, 0.4592rem + 0.6009vw, 1rem);
+  background-color: rgb(49,49,54);
+  border-radius: 0.6rem;
+}
+
+.counterpage__h1 {
+  margin: 0;
+  font-size: 2rem;
+  background-image: linear-gradient(to right, rgb(100, 108, 255), rgb(186,55,254));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.counterpage__p {
+  margin: 0;
+  font-weight: 700;
+  font-size: 1.7rem;
+  color: rgb(223,223,215);
+}
+
+.btn__container {
+  display: flex;
+  justify-content: space-around;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.counterpage__btn1,
+.counterpage__btn2,
+.counterpage__btn3 {
+  padding: 0.5rem clamp(0.8rem, 0.6768rem + 0.5258vw, 1.15rem); 
+  font-size: clamp(1.1rem, 1.0648rem + 0.1502vw, 1.2rem);
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgb(100, 108, 255);
+  border: 0.137em solid rgb(100, 108, 255);
+  color: rgb(223,223,215);
+  border-radius: 0.4em;
+  transition: all 0.4s ease;
+}
+
+.counterpage__btn1:is(:hover, :active) {
+  background-color: transparent;
+  color: white;
+}
+
+.counterpage__btn2:is(:hover, :active) {
+  background-color: transparent;
+  color: white;
+}
+
+.counterpage__btn3:is(:hover, :active) {
+  background-color: transparent;
+  color: white;
+}
+
+input {
+  width: 70%;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.4rem;
+  font-weight: 550;
+  color: rgb(223,223,215);
+  caret-color: white;
+  font-family: monospace;
+  border: none;
+  border-bottom: 0.15em solid rgb(149,148,156);
+  outline: none;
+  background-color: transparent;
+  transition: border-bottom 0.5s ease;
+}
+
+input:is(:focus, :active) {
+  border-bottom: 0.15em solid rgb(100, 108, 255);
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+  color: rgb(149,148,156);
+  font-family: monospace;
+}
+
+.link {
+  color: rgb(100, 108, 255);
+  text-decoration: none;
+  font-size: clamp(1.2rem, 1.1296rem + 0.3005vw, 1.4rem)
+}
+
+.link:hover,
+.link:active {
+  text-decoration: underline;
+  text-decoration-thickness: 0.2rem;
+}

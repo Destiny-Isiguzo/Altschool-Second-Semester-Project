@@ -1,0 +1,60 @@
+.root__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  height: 100%;
+  padding: 0 clamp(0.7rem, 0.5944rem + 0.4507vw, 1rem);
+}
+
+.root__h1 {
+  background-image: linear-gradient(to right, rgb(100, 108, 255), rgb(186,55,254));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: clamp(2.5rem, 2.1479rem + 1.5023vw, 3.5rem);
+  margin: 0;
+  animation: slideIn 1.3s ease;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-7rem);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateY(0.5);
+    opacity: 1;
+  }
+}
+
+p {
+  margin: 0;
+}
+
+.root__p1,
+.root__p2 {
+  color: rgb(223,223,215);
+  font-size: clamp(1.2rem, 1.0239rem + 0.7512vw, 1.7rem);
+  animation: slideIn 0.8s ease 300ms forwards;
+  opacity: 0;
+}
+
+.root__p2 {
+  /* max-width: 33rem; */
+  min-width: 23rem;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(-2.5rem);
+  }
+
+  to {
+    transform: translateY(0.1);
+    opacity: 1;
+  }
+}
+

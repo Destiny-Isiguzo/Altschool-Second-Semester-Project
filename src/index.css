@@ -1,0 +1,30 @@
+:root {
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 1.4;
+}
+
+*,
+*::before
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img,
+svg {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* button,
+text,
+textarea {
+  font: inherit;
+} */
+
+body {
+  overflow-x: hidden;
+}
+
