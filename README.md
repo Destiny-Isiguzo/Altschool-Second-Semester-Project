@@ -8,6 +8,11 @@ This is a simple counter app built using React. It has three buttons, increment,
 - Run the project using the command npm run dev/npm start or yarn start.
 - Open your browser and navigate to http://localhost:5173/.
 
+## Requirements
+React
+react-dom 
+react-error-boundary
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 If you have any suggestions or want to add extra features to this app, feel free to fork the repository and create a pull request. Here are the steps to contribute:
