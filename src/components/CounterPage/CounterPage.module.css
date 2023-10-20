@@ -4,8 +4,8 @@
   align-items: center;
   flex-direction: column;
   gap: clamp(2rem, 1.7887rem + 0.9014vw, 2.6rem);
-  height: clamp(20rem, 19.2958rem + 3.0047vw, 22rem);
-  width: clamp(21rem, 19.5915rem + 6.0094vw, 25rem);
+  height: 100%;
+  width: clamp(22.6rem, 21.4028rem + 5.1080vw, 26rem);
   padding: clamp(0.6rem, 0.4592rem + 0.6009vw, 1rem);
   background-color: rgb(49,49,54);
   border-radius: 0.6rem;
