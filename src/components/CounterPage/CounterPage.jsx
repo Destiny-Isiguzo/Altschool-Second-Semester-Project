@@ -24,7 +24,7 @@ const CounterPage = () => {
         <button className={styles.counterpage__btn2} onClick={decrement}>Decrement</button>
         <button className={styles.counterpage__btn3} onClick={reset}>Reset</button>
       </div>
-      <input placeholder="Enter a number" type="text" minLength='1' maxLength='15' onChange={handleChange} />
+      <input placeholder="Enter a number" type="text" maxLength='15' onInput={handleChange} />
       <Link to="/" className="link">Back Home</Link>
     </div>
   );
